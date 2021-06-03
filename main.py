@@ -24,4 +24,5 @@ def send_message():
     print(name,email,mobile_number,message)
     return redirect("/")
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
